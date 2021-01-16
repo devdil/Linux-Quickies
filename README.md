@@ -10,6 +10,7 @@ $ sudo netstat -tunapl # tuna please
 ```bash
 $ python3 -m cProfile {filename}
 $ pycallgraph graphviz --output-format=dot --output-file=pycallgraph.dot -- {pythonfilename} # requires graphviz to be installed
+$ py-spy top -- ./ltrace-test.py
 
 ```
 
